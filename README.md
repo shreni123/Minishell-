@@ -14,12 +14,12 @@
 
   -exit(exit our shell)
 
-When we provide any command to the shell, the shell reads the command from the input and provides the obtained input to the parser which is followed by the execution of the standard input.
+* When we provide any command to the shell, the shell reads the command from the input and provides the obtained input to the parser which is followed by the execution of the       standard input.
 
-When the input is passed for the parsing, the command string is separated into a program and arguments.
+* When the input is passed for the parsing, the command string is separated into a program and arguments.
 
-To run the code:-
+* To run the code:-
 
--> gcc new.c -lpthread -o ./newfile.out
+  -> gcc new.c -lpthread -o ./newfile.out
 
--> ./newfile.out
+  -> ./newfile.out
